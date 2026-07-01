@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal.Model
 {
-    internal class InstrumentoEnum
+    public enum InstrumentoEnum
     {
+        Cuerda,
+        Viento,
+        Teclado,
+        Percusión,
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal.Model
 {
-    internal class AlquilerEnum
+    public enum AlquilerEnum
     {
+        Activo, 
+        Devuelto,
+        Vencido,
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal.Model
 {
-    internal class ClienteEnum
+    public enum ClienteEnum
     {
+        Frecuente,
+        Ocasional,
+        Estudiante,
     }
 }

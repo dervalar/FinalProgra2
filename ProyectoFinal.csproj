@@ -53,8 +53,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Alquiler.cs" />
+    <Compile Include="Model\AlquilerEnum.cs" />
     <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\ClienteEnum.cs" />
     <Compile Include="Model\Instrumento.cs" />
+    <Compile Include="Model\InstrumentoEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
