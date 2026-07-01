@@ -13,15 +13,19 @@ namespace ProyectoFinal.Model
         public List<int> IdsInstrumentos { get; set; }
         public DateTime FechaAlquiler { get; set; }
         public DateTime FechaDev { get; set; }
+        public AlquilerEnum Estado { get; set; }
+        public decimal CostoTotal { get; set; }
 
 
-        public Alquiler(int id, int idCliente, List<int> idsInstrumentos, DateTime fechaAlquiler, DateTime fechaDev)
+        public Alquiler(int id, int idCliente, List<int> idsInstrumentos, DateTime fechaAlquiler, DateTime fechaDev, decimal costoTotal, AlquilerEnum estado)
         {
             Id = id;
             IdCliente = idCliente;
             IdsInstrumentos = idsInstrumentos;
             FechaAlquiler = fechaAlquiler;
-            FechaAlquiler = FechaDev;
+            FechaDev = fechaDev;
+            CostoTotal = costoTotal;
+            Estado = estado;
         }
 
 

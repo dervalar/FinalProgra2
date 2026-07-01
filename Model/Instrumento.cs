@@ -8,12 +8,22 @@ namespace ProyectoFinal.Model
 {
     internal class Instrumento
     {
-        public string nombre { get; set; }
-        public string categoria { get; set; } // (Cuerda / Viento / Percusión / Teclado)
-        public string marca { get; set; }
-        public int codigo { get; set; }
-        public bool disponible { get; set; }
+        public string Nombre { get; set; }
+        public string Categoria { get; set; } // (Cuerda / Viento / Percusión / Teclado)
+        public string Marca { get; set; }
+        public int Codigo { get; set; }
+        public bool Disponible { get; set; }
+        
 
 
+        public Instrumento(string nombre, string categoria, string marca, int codigo, bool disponible)
+        {
+            Nombre = nombre;
+            Categoria = categoria;
+            Marca = marca;
+            Codigo = codigo;
+            Disponible = disponible;
+                
+        }
     }
 }

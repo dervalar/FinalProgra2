@@ -8,9 +8,17 @@ namespace ProyectoFinal.Model
 {
     public class Cliente
     {
-        public string nombreCompleto {  get; set; }
-        public string dni {  get; set; }
-        public string email { get; set; }   
+        public string NombreCompleto {  get; set; }
+        public string Dni {  get; set; }
+        public string Email { get; set; }   
+        public ClienteEnum Tipo { get; set; }
 
+        public Cliente(string nombreCompleto, string dni, string email, ClienteEnum tipo)
+        {
+            NombreCompleto = nombreCompleto,
+            Dni = dni;
+            Email = email;
+            Tipo = tipo;
+        }
     }
 }
