@@ -15,7 +15,7 @@ namespace ProyectoFinal.Model
 
         public Cliente(string nombreCompleto, string dni, string email, ClienteEnum tipo)
         {
-            NombreCompleto = nombreCompleto,
+            NombreCompleto = nombreCompleto;
             Dni = dni;
             Email = email;
             Tipo = tipo;
